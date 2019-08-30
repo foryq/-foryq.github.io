@@ -2,7 +2,7 @@ title: 脆弱的番茄炒蛋
 author: 脆弱的番茄炒蛋
 email: 234646436@qq.com
 description: 技术分析、Java后端技术、Spring Boot、Spring Cloud、dubbo、框架搭建。
-show_excerpts: true # set to true to show excerpts on the homepage
+show_excerpts: true 技术分析、Java后端技术、Spring Boot、Spring Cloud、dubbo、框架搭建。
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -17,7 +17,7 @@ plainwhite:
   # generate social links in footer
   social_links:
     # twitter: thelehhman
-    github:  https://github.com/foryq
+    github:  foryq
     # linkedIn: in/thelehhman
     rss: rss
     # dribbble: jekyll
