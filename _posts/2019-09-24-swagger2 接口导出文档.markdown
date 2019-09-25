@@ -111,7 +111,7 @@ categories: swagger2 导出文档 html pdf
     </plugin>
 ```
 配置好后首先需要运行asciidoctor-maven-plugin插件的命令去生成adoc文件,再运行generate-resources命令输出静态文档，因为该插件是根据adoc文件生成的PDF和HTML，所以顺序不能错，最后输出的PDF文件会在src/docs/asciidoc/pdf目录下面。
-————————————————
+
 //生成adoc文件
 mvn asciidoctor:process-asciidoc
 //生成pdf和html
