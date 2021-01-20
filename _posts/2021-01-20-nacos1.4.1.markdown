@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "nacos1.4.1版本升级发现的问题"
+date:   2020-01-20 15:03:36 +0530
+categories: nacos1.4.1 403 unknown user!
+---
+
+
+```javascript
+最近nacos爆出漏洞，可以绕过鉴权添加用户，所以按官方升级到1.4.1 但是有出现个问题用户名密码里带特殊符号时报错：
+(type=Forbidden, status=403).unknown user!。
+目前的解决方案是将特殊符号去掉，期待大神们更精彩的解决方案
+```
+
+
+
