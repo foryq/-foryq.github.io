@@ -1,6 +1,33 @@
-*.gem
-.bundle
-.sass-cache
-_site
-Gemfile.lock
-.DS_Store
+/target/
+.project
+*.iml
+.idea
+.classpath
+.settings
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+/.project
+/src/main/webapp
