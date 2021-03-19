@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "gateway DataBufferLimitException"
-date:   2020-01-20 15:03:36 +0530
+date:   2020-01-21 15:03:36 +0530
 categories: gateway DataBufferLimitException Exceeded limit on max bytes to buffer : 262144​
 ---
 
