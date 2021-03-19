@@ -7,7 +7,7 @@ categories: gateway DataBufferLimitException Exceeded limit on max bytes to buff
 
 
 ```javascript
-//spring.codec.max-in-memory-size=5242880 设置无效
+spring.codec.max-in-memory-size=5242880 设置无效
 首选这里感谢下大神 theClouds的文章 http://theclouds.io/databufferlimitexception-262144/
 顺利定位到自己问题并解决了问题
 DefaultClientResponse clientResponse = new DefaultClientResponse(responseAdapter, ExchangeStrategies.withDefaults());
