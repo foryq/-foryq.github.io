@@ -3,6 +3,7 @@ layout: post
 title:  "gateway DataBufferLimitException"
 date:   2021-01-21 15:03:36 +0530
 gateway DataBufferLimitException Exceeded limit on max bytes to buffer : 262144​
+categories: gateway DataBufferLimitException!
 ---
 spring.codec.max-in-memory-size=5242880 设置无效
 spring.codec.max-in-memory-size=5242880 设置无效
